@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C42084DC2323F43600A022BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42084DB2323F43600A022BD /* AppDelegate.swift */; };
+		C42084DE2323F43600A022BD /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42084DD2323F43600A022BD /* RootViewController.swift */; };
+		C42084E02323F43600A022BD /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42084DF2323F43600A022BD /* DataViewController.swift */; };
+		C42084E22323F43600A022BD /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42084E12323F43600A022BD /* ModelController.swift */; };
+		C42084E52323F43600A022BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42084E32323F43600A022BD /* Main.storyboard */; };
+		C42084E72323F43900A022BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C42084E62323F43900A022BD /* Assets.xcassets */; };
+		C42084EA2323F43900A022BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C42084E82323F43900A022BD /* LaunchScreen.storyboard */; };
+		C42084F52323F43900A022BD /* PennAppsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42084F42323F43900A022BD /* PennAppsTests.swift */; };
+		C42085002323F43900A022BD /* PennAppsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C42084FF2323F43900A022BD /* PennAppsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C42084F12323F43900A022BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42084D02323F43600A022BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42084D72323F43600A022BD;
+			remoteInfo = PennApps;
+		};
+		C42084FC2323F43900A022BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C42084D02323F43600A022BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C42084D72323F43600A022BD;
+			remoteInfo = PennApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C42084D82323F43600A022BD /* PennApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PennApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42084DB2323F43600A022BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C42084DD2323F43600A022BD /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		C42084DF2323F43600A022BD /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		C42084E12323F43600A022BD /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		C42084E42323F43600A022BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C42084E62323F43900A022BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C42084E92323F43900A022BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C42084EB2323F43900A022BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42084F02323F43900A022BD /* PennAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42084F42323F43900A022BD /* PennAppsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsTests.swift; sourceTree = "<group>"; };
+		C42084F62323F43900A022BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C42084FB2323F43900A022BD /* PennAppsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PennAppsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C42084FF2323F43900A022BD /* PennAppsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PennAppsUITests.swift; sourceTree = "<group>"; };
+		C42085012323F43900A022BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C42084D52323F43600A022BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42084ED2323F43900A022BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42084F82323F43900A022BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C42084CF2323F43600A022BD = {
+			isa = PBXGroup;
+			children = (
+				C42084DA2323F43600A022BD /* PennApps */,
+				C42084F32323F43900A022BD /* PennAppsTests */,
+				C42084FE2323F43900A022BD /* PennAppsUITests */,
+				C42084D92323F43600A022BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C42084D92323F43600A022BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C42084D82323F43600A022BD /* PennApps.app */,
+				C42084F02323F43900A022BD /* PennAppsTests.xctest */,
+				C42084FB2323F43900A022BD /* PennAppsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C42084DA2323F43600A022BD /* PennApps */ = {
+			isa = PBXGroup;
+			children = (
+				C42084DB2323F43600A022BD /* AppDelegate.swift */,
+				C42084DD2323F43600A022BD /* RootViewController.swift */,
+				C42084DF2323F43600A022BD /* DataViewController.swift */,
+				C42084E12323F43600A022BD /* ModelController.swift */,
+				C42084E32323F43600A022BD /* Main.storyboard */,
+				C42084E62323F43900A022BD /* Assets.xcassets */,
+				C42084E82323F43900A022BD /* LaunchScreen.storyboard */,
+				C42084EB2323F43900A022BD /* Info.plist */,
+			);
+			path = PennApps;
+			sourceTree = "<group>";
+		};
+		C42084F32323F43900A022BD /* PennAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				C42084F42323F43900A022BD /* PennAppsTests.swift */,
+				C42084F62323F43900A022BD /* Info.plist */,
+			);
+			path = PennAppsTests;
+			sourceTree = "<group>";
+		};
+		C42084FE2323F43900A022BD /* PennAppsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C42084FF2323F43900A022BD /* PennAppsUITests.swift */,
+				C42085012323F43900A022BD /* Info.plist */,
+			);
+			path = PennAppsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C42084D72323F43600A022BD /* PennApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42085042323F43900A022BD /* Build configuration list for PBXNativeTarget "PennApps" */;
+			buildPhases = (
+				C42084D42323F43600A022BD /* Sources */,
+				C42084D52323F43600A022BD /* Frameworks */,
+				C42084D62323F43600A022BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PennApps;
+			productName = PennApps;
+			productReference = C42084D82323F43600A022BD /* PennApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C42084EF2323F43900A022BD /* PennAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C42085072323F43900A022BD /* Build configuration list for PBXNativeTarget "PennAppsTests" */;
+			buildPhases = (
+				C42084EC2323F43900A022BD /* Sources */,
+				C42084ED2323F43900A022BD /* Frameworks */,
+				C42084EE2323F43900A022BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42084F22323F43900A022BD /* PBXTargetDependency */,
+			);
+			name = PennAppsTests;
+			productName = PennAppsTests;
+			productReference = C42084F02323F43900A022BD /* PennAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C42084FA2323F43900A022BD /* PennAppsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C420850A2323F43900A022BD /* Build configuration list for PBXNativeTarget "PennAppsUITests" */;
+			buildPhases = (
+				C42084F72323F43900A022BD /* Sources */,
+				C42084F82323F43900A022BD /* Frameworks */,
+				C42084F92323F43900A022BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C42084FD2323F43900A022BD /* PBXTargetDependency */,
+			);
+			name = PennAppsUITests;
+			productName = PennAppsUITests;
+			productReference = C42084FB2323F43900A022BD /* PennAppsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C42084D02323F43600A022BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "Jerry Ye";
+				TargetAttributes = {
+					C42084D72323F43600A022BD = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					C42084EF2323F43900A022BD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C42084D72323F43600A022BD;
+					};
+					C42084FA2323F43900A022BD = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = C42084D72323F43600A022BD;
+					};
+				};
+			};
+			buildConfigurationList = C42084D32323F43600A022BD /* Build configuration list for PBXProject "PennApps" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C42084CF2323F43600A022BD;
+			productRefGroup = C42084D92323F43600A022BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C42084D72323F43600A022BD /* PennApps */,
+				C42084EF2323F43900A022BD /* PennAppsTests */,
+				C42084FA2323F43900A022BD /* PennAppsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C42084D62323F43600A022BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42084EA2323F43900A022BD /* LaunchScreen.storyboard in Resources */,
+				C42084E72323F43900A022BD /* Assets.xcassets in Resources */,
+				C42084E52323F43600A022BD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42084EE2323F43900A022BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42084F92323F43900A022BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C42084D42323F43600A022BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42084DE2323F43600A022BD /* RootViewController.swift in Sources */,
+				C42084E22323F43600A022BD /* ModelController.swift in Sources */,
+				C42084E02323F43600A022BD /* DataViewController.swift in Sources */,
+				C42084DC2323F43600A022BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42084EC2323F43900A022BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42084F52323F43900A022BD /* PennAppsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C42084F72323F43900A022BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C42085002323F43900A022BD /* PennAppsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C42084F22323F43900A022BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42084D72323F43600A022BD /* PennApps */;
+			targetProxy = C42084F12323F43900A022BD /* PBXContainerItemProxy */;
+		};
+		C42084FD2323F43900A022BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C42084D72323F43600A022BD /* PennApps */;
+			targetProxy = C42084FC2323F43900A022BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C42084E32323F43600A022BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42084E42323F43600A022BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C42084E82323F43900A022BD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C42084E92323F43900A022BD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C42085022323F43900A022BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C42085032323F43900A022BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C42085052323F43900A022BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PennApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C42085062323F43900A022BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = PennApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennApps;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C42085082323F43900A022BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennApps.app/PennApps";
+			};
+			name = Debug;
+		};
+		C42085092323F43900A022BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennAppsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PennApps.app/PennApps";
+			};
+			name = Release;
+		};
+		C420850B2323F43900A022BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennApps;
+			};
+			name = Debug;
+		};
+		C420850C2323F43900A022BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PennAppsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PennAppsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PennApps;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C42084D32323F43600A022BD /* Build configuration list for PBXProject "PennApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42085022323F43900A022BD /* Debug */,
+				C42085032323F43900A022BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42085042323F43900A022BD /* Build configuration list for PBXNativeTarget "PennApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42085052323F43900A022BD /* Debug */,
+				C42085062323F43900A022BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C42085072323F43900A022BD /* Build configuration list for PBXNativeTarget "PennAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C42085082323F43900A022BD /* Debug */,
+				C42085092323F43900A022BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C420850A2323F43900A022BD /* Build configuration list for PBXNativeTarget "PennAppsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C420850B2323F43900A022BD /* Debug */,
+				C420850C2323F43900A022BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C42084D02323F43600A022BD /* Project object */;
+}
